@@ -1,0 +1,133 @@
+.service-table-screen {
+  /* display: flex;background-color: #25325a; */
+}
+
+.service-table-screen .add-edit-service {
+  display: flex;
+  flex-direction: row;
+}
+
+.service-table-screen .service-table-dropdown {
+  display: flex;
+  flex-direction: row;
+  margin-right: 12px;
+}
+
+.service-table-screen .display-text {
+  color: #25325a;
+  font-size: 15px !important;
+  width: unset;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.category-dropdown-container,
+.service-dropdown-container,
+.moment-dropdown-container,
+.sector-dropdown-container,
+.varient-dropdown-container {
+  width: 100%;
+}
+
+.category-dropdown-container .category-dropdown,
+.service-dropdown-container .service-dropdown,
+.moment-dropdown-container .moment-dropdown,
+.sector-dropdown-container .sector-dropdown,
+.varient-dropdown-container .varient-dropdown {
+  width: 100%;
+}
+
+.service-table-screen .add-new-services {
+  display: flex;
+  padding: 0px;
+  margin-right: 40px;
+  margin-top: 18px;
+}
+
+.delivery-option {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.delivery-option .subtitle-text {
+  align-self: center;
+  margin: 10px;
+}
+
+.servicelist-table {
+  height: calc(100% - 3rem);
+}
+
+.service-table thead tr:nth-child(1) th {
+  color: #fff !important;
+  background-color: #25325a !important;
+}
+
+.service-table thead tr {
+  height: 65px !important;
+}
+
+.service-table thead tr th div {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+.service-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.service-table tbody tr:nth-child(odd) {
+  background-color: #f6ffff;
+}
+
+.service-table .view-or-edit {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  background: #ddd;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.service-table table td:last-child {
+  width: 120px;
+}
+
+.service-table tbody td:last-child {
+  margin: 0 !important;
+  padding: 0 5px !important;
+  vertical-align: middle;
+}
+
+.service-table .view-or-edit .ve-icon {
+  margin: 0 5px;
+  width: 30px;
+  height: 100%;
+  background-size: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../../../assets/images/edit-icon.svg');
+}
+
+.service-table .view-or-edit .ve-text {
+  padding-right: 5px;
+  width: calc(100% - 25px);
+  font-weight: 600;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}

@@ -1,0 +1,203 @@
+.menu {
+  position: absolute;
+  margin: 0 0 0 -14rem;
+  display: flex;
+  width: 18rem;
+  height: 100vh;
+  border-right: 1px solid #eceeef;
+  background: #fff;
+  box-shadow: 0 0 3px 0 #888;
+  transition: box-shadow 0.3s ease-in-out, margin 0.3s ease-in-out;
+  overflow: hidden;
+  z-index: 50;
+}
+
+.menu-visible {
+  margin: 0;
+  box-shadow: 0 0 20px 0 #888;
+
+  transition: box-shadow 0.3s ease-in-out, margin 0.3s ease-in-out;
+}
+
+.menu .hamburger-icon {
+  position: absolute;
+  margin: 1rem;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url('../../assets/images/hamburger-menu-icon.png');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.menu .menu-content {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.menu-visible .menu-content {
+  z-index: 10;
+}
+
+.menu .menu-content .store-info {
+  width: 100%;
+  height: 4rem;
+}
+
+.menu .actions .menu-item-wrapper {
+  margin-bottom: 4pt;
+}
+
+.menu .store-info .concessionaire-logo {
+  padding: 10px;
+  width: 75%;
+  height: 100%;
+}
+
+.menu .actions {
+  margin-top: 1rem;
+}
+
+.menu .actions .menu-item {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.2s;
+  border-top: 1px solid #efefef;
+}
+
+.menu .actions .menu-item.services-active {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.2s;
+  border-top: 1px solid #efefef;
+  background-color: #25325a;
+}
+.menu .actions .menu-item.stores-active {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.2s;
+  border-top: 1px solid #efefef;
+  background-color: #25325a;
+}
+
+.menu .actions .menu-item:last-child {
+  border-bottom: 1px solid #efefef;
+}
+
+.menu .actions .menu-item:hover {
+  color: #e7a532;
+}
+
+.menu .menu-item .status {
+  position: absolute;
+  right: 0;
+  margin: 18px 3px;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.menu .menu-item .display-text {
+  width: calc(100% - 70px);
+  margin-left: 20px;
+}
+.menu .menu-item .display-text.services-active {
+  width: calc(100% - 70px);
+  color: #ffffff;
+}
+.menu .menu-item .display-text.services-active {
+  width: calc(100% - 70px);
+  color: #ffffff;
+}
+
+.menu .menu-item .item-icon {
+  width: 40px;
+  height: 40px;
+  float: right;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: 0 6px;
+}
+
+.menu .item-icon.services {
+  background-image: url('../../assets/images/Orders1.svg');
+}
+.menu .item-icon.services-active {
+  background-image: url('../../assets/images/Orders1.svg');
+  filter: brightness(0) invert(1);
+}
+
+
+.menu .actions .sub-menu-item {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.2s;
+  border-top: 1px solid #efefef;
+  background-color: #94c2c2;
+  margin-bottom: 1pt;
+  /* margin-bottom: 3pt; */
+  margin-left: 25px;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.menu .actions .sub-menu-item-active {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.2s;
+  border-top: 1px solid #efefef;
+  background-color: #ddf6bf;
+  margin-bottom: 1pt;
+  /* margin-bottom: 3pt; */
+  margin-left: 25px;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.menu .sub-menu-item .display-text {
+  width: calc(100% - 70px);
+  margin-left: 20px;
+  color: #4b5c5e;
+}
+
+.menu .sub-menu-item-active .display-text-active {
+  width: calc(100% - 70px);
+  margin-left: 20px;
+  color: #000;
+}
+.menu .display-text-bullet {
+  color: #278585;
+  font-size: 14pt;
+  margin-right: 5px;
+}

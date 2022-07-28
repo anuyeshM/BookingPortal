@@ -1,0 +1,28 @@
+.tabs-container {
+  display: flex;
+  width: 98.5%;
+  height: 62px;
+  border-bottom: 1px solid #a2a2a2;
+  margin-left: 10px;
+}
+
+.tc .tab {
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  line-height: 34px;
+  padding: 0.5rem 3rem;
+  background-color: #d4e5ed;
+  width: auto;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s ease-in, color 0.3s ease-out;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  margin-left: 4px;
+}
+
+.tc .tab.active {
+  background-color: #25335a;
+  color: #fff;
+  margin: 10px 0 0 0;
+}

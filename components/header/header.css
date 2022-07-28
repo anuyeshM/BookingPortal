@@ -1,0 +1,126 @@
+/*Header*/
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f6f8;
+}
+
+.header .user-info {
+  /* position: absolute; */
+  right: 0;
+  margin: 0;
+  padding: 8px;
+  display: flex;
+  width: 15rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.header .user-info .user-meta {
+  width: calc(100% - 120px);
+  height: 100%;
+}
+
+.header .user-meta .user-name {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 2rem;
+  font-size: 18px;
+  text-align: right;
+  margin-left: 20px;
+}
+
+.header .user-meta .user-designation {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 2rem;
+  font-size: 13px;
+  text-align: right;
+  margin-left: 20px;
+}
+
+.header .user-info .user-image {
+  margin: 8px 10px;
+}
+
+.header .user-info .user-image img {
+  width: 32px;
+  height: 32px;
+  margin-left: 34px;
+}
+
+.header .user-info .options {
+  width: 30px;
+  height: 3rem;
+  background-size: 20px 3rem;
+  background-position: -2px center;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/down-triangle-icon.svg');
+}
+
+.header .user-info .user-options {
+  position: absolute;
+  top: 58px;
+  right: 15px;
+  width: 15rem;
+  height: auto;
+  background-color: #e3f9ff;
+  z-index: 5;
+  border: 1px solid #c7c7c7;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px 0 #5f5f5f;
+}
+
+.header .user-options .logout {
+  padding: 15px;
+  transition: background-color 0.5s;
+  font-weight: 700;
+  color: #25325a;
+}
+
+.header .user-options .logout:hover {
+  color: #912b08;
+}
+
+.header .client-datetime {
+  margin: 0 auto;
+  display: flex;
+  height: 4rem;
+  line-height: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header .client-datetime .date-day {
+  display: flex;
+}
+
+.header .date-day .day {
+  width: 50px;
+}
+
+.header .date-day .date {
+  width: 100px;
+  margin-right: 1rem;
+}
+
+.header-search-image {
+  display: flex;
+  background-image: url('../../assets/images/search-icon.png');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 30px;
+  margin: 20px;
+}
+
+.header-notification-image {
+  display: flex;
+  background-image: url('../../assets/images/notificaton.png');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 30px;
+  margin: 18px;
+}
