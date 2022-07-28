@@ -1,0 +1,30 @@
+.static-dropdown-container {
+  margin: 4px 0;
+  width: 33%;
+  height: 4rem;
+  display: flex;
+  position: relative;
+}
+
+.static-dropdown-container .display-text {
+  height: 100%;
+  line-height: 2rem;
+  margin-right: 10pt;
+  margin-left: 10pt;
+  margin-top: 10pt;
+  font-weight: 600;
+  color: #fff;
+  width: 14rem;
+  display: flex;
+  /* flex-flow: row-reverse; */
+  flex-flow: row;
+  justify-content: flex-end;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.static-dropdown-container .static-dropdown {
+  width: calc(100% - 7rem);
+  height: 100%;
+  margin: 10px 0;
+}
