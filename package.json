@@ -1,0 +1,69 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^2.10.11",
+    "@material-ui/core": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "bson": "^4.3.0",
+    "cropperjs": "^1.5.12",
+    "date-fns": "^2.28.0",
+    "https-localhost": "^4.6.4",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "noty": "^3.2.0-beta",
+    "rc-time-picker": "^3.7.3",
+    "react": "^17.0.2",
+    "react-bootstrap": "^0.32.4",
+    "react-cropper": "^2.1.7",
+    "react-date-range": "^1.4.0",
+    "react-datetime": "^3.0.4",
+    "react-datetime-range-super-picker": "^1.13.0",
+    "react-day-picker": "^7.4.10",
+    "react-dom": "^17.0.1",
+    "react-image-file-resizer": "^0.4.7",
+    "react-live-clock": "^5.0.13",
+    "react-moment": "^1.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-select": "^3.2.0",
+    "react-simple-timefield": "^3.2.3",
+    "react-table": "^7.6.2",
+    "react-time-picker": "^4.1.2",
+    "react-websocket": "^2.1.0",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4",
+    "websocket": "^1.0.33"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}
